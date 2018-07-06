@@ -1,10 +1,10 @@
-n=int(raw_input("enter the numbver"))
-if(n>0):
-   print("psitive")
-elif(n<0):
-   print("negative")
+num = float(input(""))
+if num > 0:
+   print("positive")
+elif num == 0:
+   print("Zero")
 else:
-   print("zero")
+   print("negative")
    
    
    
