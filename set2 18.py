@@ -3,10 +3,10 @@ x=int(x)
 y=int(y)
 for a in range(x,y):
 	t=a
-	n=0
+	num=0
 	while a!=0:
 		b=a%10
 		a=a//10
-		n += b**3
-	if n==t:
+		num += b**3
+	if num==t:
 		print(t,end=" ")
