@@ -1,8 +1,8 @@
-def power(base,exp):
-    if(exp==1):
-        return(base)
-    if(exp!=1):
-        return(base*power(base,exp-1))
-base=int(input("Enter base: "))
-exp=int(input("Enter exponential value: "))
-print("Result:",power(base,exp))
+def power(b,e):
+    if(e==1):
+        return(b)
+    if(e!=1):
+        return(b*power(b,e-1))
+b=int(input("Enter base: "))
+e=int(input("Enter exponential value: "))
+print("Result:",power(b,e))
