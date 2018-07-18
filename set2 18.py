@@ -1,7 +1,7 @@
-x,y=input().split()
-x=int(x)
+m,y=input().split()
+m=int(m)
 y=int(y)
-for a in range(x,y):
+for a in range(m,y):
 	t=a
 	num=0
 	while a!=0:
