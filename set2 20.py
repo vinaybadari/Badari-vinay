@@ -1,5 +1,5 @@
-n=int(input())
+a=int(input())
 j=1
 while j<6:
-	print(n*j,end=" ")
+	print(a*j,end=" ")
 	j=j+1
